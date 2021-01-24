@@ -1,0 +1,76 @@
+Script started on Wed 01 Nov 2017 11:26:56 AM PDT
+devon.wilson1@syccuxas01:~/cs162/Lab5> g[Kexit[K[K[K[Kg++ *.cpp -o prog
+devon.wilson1@syccuxas01:~/cs162/Lab5> gdb prog[K[K[K[Kprog
+[?1034hGNU gdb (GDB) 8.0.1
+Copyright (C) 2017 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from prog...done.
+(gdb) run
+Starting program: /home/student/devon.wilson1/cs162/Lab5/prog 
+warning: File "/usr/local/lib64/libstdc++.so.6.0.22-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "$debugdir:$datadir/auto-load".
+To enable execution of this file add
+	add-auto-load-safe-path /usr/local/lib64/libstdc++.so.6.0.22-gdb.py
+line to your configuration file "/home/student/devon.wilson1/.gdbinit".
+To completely disable this security protection add
+	set auto-load safe-path /
+line to your configuration file "/home/student/devon.wilson1/.gdbinit".
+For more information about this security protection see the
+"Auto-loading safe path" section in the GDB manual.  E.g., run from the shell:
+	info "(gdb)Auto-loading safe path"
+How many car entries? 3
+for car 0
+make? ford
+model? focus
+color? red
+year? 2017
+how many in stock? 3
+for car 1
+make? subaru
+model? outback
+color? grey
+year? 2015
+how many in stock? 5
+for car 2
+make? honda
+model? accord
+color? redd    black
+year? 1997
+how many in stock? 10
+printing 0 car in array
+======Car======
+Make: ford
+Model: focus
+Color: red
+Year: 2017
+In stock total: 3
+printing 1 car in array
+======Car======
+Make: subaru
+Model: outback
+Color: grey
+Year: 2015
+In stock total: 5
+printing 2 car in array
+======Car======
+Make: honda
+Model: accord
+Color: black
+Year: 1997
+In stock total: 10
+[Inferior 1 (process 23962) exited normally]
+(gdb) quit
+devon.wilson1@syccuxas01:~/cs162/Lab5> exit
+exit
+
+Script done on Wed 01 Nov 2017 11:28:43 AM PDT
